@@ -290,4 +290,4 @@ end
 
 ## Author
 
-Siya Maliwa — BTech Computer Engineering student, Cape Peninsula University of Technology
+Siyanda Maliwa — BTech Computer Engineering student, Cape Peninsula University of Technology
