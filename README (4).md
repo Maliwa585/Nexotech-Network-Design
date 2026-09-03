@@ -39,7 +39,7 @@ Built on least privilege — each department only reaches what it actually needs
 
 **Guest** has internet access only, through NAT. Blocked from every internal VLAN, in both directions — no internal VLAN can reach into Guest either.
 
-**Known limitation (⚠️):** ideally Servers shouldn't be able to *initiate* connections toward Dev/Mgmt/Sales, only reply to ones they start. I didn't implement this — standard Cisco ACLs can't tell a new connection from a reply, so blocking it outright would've broken the legitimate Dev → Servers access. Properly solving this needs a reflexive ACL or a stateful firewall, which is beyond what I've covered so far.
+**Known limitation:** ideally Servers shouldn't be able to *initiate* connections toward Dev/Mgmt/Sales, only reply to ones they start. I didn't implement this — standard Cisco ACLs can't tell a new connection from a reply, so blocking it outright would've broken the legitimate Dev → Servers access. Properly solving this needs a reflexive ACL or a stateful firewall, which is beyond what I've covered so far.
 
 ## How It's Built
 
